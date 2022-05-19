@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(49, 50, 55);
+    color: rgb(172, 178, 178);
+    padding: 3%;
+}
+
+header {
+    display: flex;
+}
+img {
+    display: inline-block;
+}
+
+.name {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
+
+#info {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    margin-right: 4px;
+    margin-left:;
+}
+
+.info-text {
+    display: inline-block;
+    margin-left: auto;
+    
+}
