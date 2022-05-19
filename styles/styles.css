@@ -1,31 +1,56 @@
 body {
     background-color: rgb(49, 50, 55);
     color: rgb(172, 178, 178);
-    padding: 3%;
+    margin: 0;
+    padding: 0;
+    
 }
 
 header {
     display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+    
+    flex-wrap: wrap;
+    
 }
-img {
-    display: inline-block;
+.headshot {
+    height:150px;
+    margin-bottom: 15px;
 }
 
 .name {
     display: inline-block;
     color: rgb(255, 255, 255);
+    flex:1;
+    flex-basis: auto;
+    padding-left: 3%;
+    
+}
+.info {
+
 }
 
-#info {
+#info-field {
     display: inline-block;
     color: rgb(255, 255, 255);
     text-align: right;
     margin-right: 4px;
-    margin-left:;
+    
 }
 
 .info-text {
-    display: inline-block;
-    margin-left: auto;
+    display: inline-block;    
+}
+
+.line {
+    height: 3px;
+    background-color: rgb(172, 178, 178);
+    margin: 5% 0;
     
+}
+
+.summary {
+    padding: 0 5%;
+    margin-top: 0; 
 }
